@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "rn-alert-prompt": ["../src/index"],
+      "rn-alert-prompt/*": ["../src/*"]
+    }
+  }
+}
